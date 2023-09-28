@@ -3,8 +3,8 @@ require 'logger'
 require 'net/http'
 require 'openssl'
 require 'uri'
-require 'config'
-require 'constants'
+require_relative 'config'
+require_relative 'constants'
 
 module Thoom
   # General Error message returned by the class
